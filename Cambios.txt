@@ -1,0 +1,33 @@
+- 29-04-2021 -
+Cambios implementados en la version v1.4.0
+
+-- Nuevas funcionalidades
+	- Campo "Observaciones" en formulario "Orden de Salida"
+	- Combo Box "Sector" en formulario "Persona" (cliente, proveedor hidden con valor predeterminado)
+	
+-- Varios
+- Se crea el archivo sector.php en la carpeta vistas
+- Se modifican las archivos dentro de la carpeta vistas
+	- cliente.php
+	- header.php
+	- venta.php
+	- proveedor.php
+- Se crea el archivo sector.js en la carpeta vistas\scripts
+- Se modifican las archivos dentro de la carpeta vistas\scripts
+	- cliente.js
+	- venta.js
+- Se crea el archivo sector.php en la carpeta ajax
+- Se modifican las archivos dentro de la carpeta ajax
+	- venta.php
+	- persona.php	
+- Se crea el archivo Sector.php en la carpeta modelos
+- Se modifican las archivos dentro de la carpeta modelos
+	- Venta.php
+	- Persona.php
+
+- Se modifica el archivo Consultas.php en la carpeta modelos (relacionado con que no muestre ubicaciones con cantidad cero)
+	
+-- Varios (DB)
+- Se crea tabla sector
+- Se crea campo idsector en tabla persona
+- Se crea campo comentario en tabla venta
